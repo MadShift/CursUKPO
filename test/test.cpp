@@ -22,12 +22,6 @@ int mas[7][7] = {
 			string ok = "7 - 6 - 5";
 			EXPECT_EQ(ans, ok);
 		}
-		TEST(testing, findNullPath)
-		{
-			string ans = findPath(mas, NULL, NULL);
-			string ok = "Первая вершина введена неверно!";
-			EXPECT_EQ(ans, ok);
-		}
 		TEST(testing, findNoExistedPath)
 		{
 			string ans = findPath(mas, 90, 3);
