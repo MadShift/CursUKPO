@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.9)
-project(test)
+project(test1)
 
-add_subdirectory(gtest)
+set(CMAKE_CXX_STANDARD 17)
 
-include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
+add_subdirectory(test)
 
-add_executable(runTests test.cpp)
+add_executable(main.cpp)
 
-target_link_libraries(runTests gtest gtest_main)
+target_link_libraries(main)
