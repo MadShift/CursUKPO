@@ -1,0 +1,21 @@
+[2018-11-21 11:02:26] [info] Start Program:
+Path:"D:\Учёба\UKPO2_graph\Debug\UKPO2_graph.exe"
+Arguments:
+Working directory: "D:\Учёба\UKPO2_graph\UKPO2_graph\"
+Modules: Selected: D:\Учёба\UKPO2_graph\Debug\UKPO2_graph.exe D:\Учёба\UKPO2_graph\Debug\UnitTest1.dll Excluded: 
+Sources: Selected: D:\Учёба\UKPO2_graph\UKPO2_graph D:\Учёба\UKPO2_graph\UnitTest1 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\madsh\AppData\Local\Temp\m2aojtvg.2pw 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2018-11-21 11:02:27] [info] Module: D:\Учёба\UKPO2_graph\Debug\UKPO2_graph.exe is selected because it matches selected pattern: 
+[2018-11-21 11:02:29] [info] ----------------------------------------------------
+[2018-11-21 11:02:29] [info] Coverage binary generated in file: C:\Users\madsh\AppData\Local\Temp\m2aojtvg.2pw
+[2018-11-21 11:02:29] [info] ----------------------------------------------------

@@ -1,0 +1,4 @@
+﻿  unittest1.cpp
+d:\учёба\ukpo2_graph\unittest1\unittest1.cpp(71): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+d:\учёба\ukpo2_graph\unittest1\unittest1.cpp(77): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  UnitTest1.vcxproj -> D:\Учёба\UKPO2_graph\Debug\UnitTest1.dll
