@@ -52,6 +52,24 @@ int mas[7][7] = {
 			string ok = "Первая вершина введена неверно!";
 			EXPECT_EQ(ans, ok);
 		}
+		TEST(testing, enterNubmersWithPlus)
+		{
+			string ans = findPath(mas, +3, +6);
+			string ok = "6 - 7 - 1 - 3";
+			EXPECT_EQ(ans, ok);
+		}
+		TEST(testing, enterSpacesThenNumber)
+		{
+			string ans = findPath(mas, 3, 6);
+			string ok = "6 - 7 - 1 - 3";
+			EXPECT_EQ(ans, ok);
+		}
+		TEST(testing, enterEntersThenNubmer)
+		{
+			string ans = findPath(mas, 1, 5);
+			string ok = "5 - 4 - 2 - 1";
+			EXPECT_EQ(ans, ok);
+		}
 		int main(int argc, char **argv) {
 			::testing::InitGoogleTest(&argc, argv);
 			return RUN_ALL_TESTS();
